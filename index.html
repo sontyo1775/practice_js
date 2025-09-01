@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+      <h1>タスク管理</h1>
+
+  <div class="task-form">
+    <form>
+      <label for="task">新しいタスク:</label><br>
+      <input type="text" id="task" name="task" placeholder="例: 買い物に行く" required>
+      <button id="task-button" type="submit">追加</button>
+    </form>
+  </div>
+
+  <ul class="task-list">
+    <li class="task">☑ 会議に出席する</li>
+    <li class="task">☑ メールを返信する</li>
+    <li class="task">☐ ジムに行く</li>
+  </ul>
+    <script type="module" src="./js_file/main.js"></script>
 </body>
 </html>
